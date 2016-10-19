@@ -1,4 +1,6 @@
-# 액티비티 생명 주기
+# Android Tech Interview
+
+## 액티비티 생명 주기
 
 A 액티비티 시작 -> A's `onCreate()` -> A's `onStart()` -> A's `onResume()` -> A 액티비티 실행
 
@@ -14,4 +16,4 @@ finish() 메소드를 호출하거나 메모리 확보를 위해 액티비티를
 
 > onStop()과 onDestroy()는 호출되지 않을 수 있음
 
-![ActivityLifeCycle](../_img/lifecycle.png)
+![ActivityLifeCycle](_img/lifecycle.png)

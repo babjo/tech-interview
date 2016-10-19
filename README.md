@@ -10,4 +10,5 @@
 ### Java
 
 ### Android
-- [Activity Life Cycle](https://github.com/babjo/tech-interview/blob/master/android/ActivityLifeCycle.md)
+- Activity Life Cycle
+- AsyncTask 를 직접 구현한다면 ?
