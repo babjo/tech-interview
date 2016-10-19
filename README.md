@@ -4,15 +4,10 @@
 ### Algorithm
 
 ### Data Structure
-- 
-- 
  
 ### Design Pattern
 
 ### Java
-- 
-- 
 
 ### Android
 - [Activity Life Cycle](https://github.com/babjo/tech-interview/blob/master/android/ActivityLifeCycle.md)
-- 
