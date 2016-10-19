@@ -17,3 +17,20 @@ finish() 메소드를 호출하거나 메모리 확보를 위해 액티비티를
 > onStop()과 onDestroy()는 호출되지 않을 수 있음
 
 ![ActivityLifeCycle](_img/lifecycle.png)
+
+## AsyncTask 를 직접 구현한다면 ?
+
+`Thread`와 `Handler`를 이용한다.
+
+```java
+Thread t = new Thread(()->{
+   (백그라운드에서 실행될 코드!)
+   
+   // Get a handler that can be used to post to the main thread
+   Handler mainHandler = new Handler(context.getMainLooper());
+   mainHandler.post(()->{
+        (UI스레드에서 동작하게 하고 싶은 코드)
+   });
+});
+t.start();
+```
