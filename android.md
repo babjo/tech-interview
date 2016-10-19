@@ -34,3 +34,26 @@ Thread t = new Thread(()->{
 });
 t.start();
 ```
+
+## Context 란?
+어플리케이션의 현재 상태를 나타내는 객체로, 새롭게 생성된 객체가 컨택스트 객체를 통해 어플리케이션이 실행되고 있는 상황을 이해하는데 도움을 준다.
+개발자 입장에서는 새로운 객체(뷰, 어뎁터 등)를 생성, 리소스 접근, 컴포넌트 접근을 위해 사용한다.
+
+다음 방법으로 접근 가능 :  `getApplicationContext()`, `getContext()`, `getBaseContext()` or `this` (when in the activity class).
+
+- 새로운 객체 생성 : 새로운 뷰, 어뎁터, 리스너
+```java
+TextView tv = new TextView(getContext());
+ListAdapter adapter = new SimpleCursorAdapter(getApplicationContext(), ...);
+```
+
+- 리소스 접근 : LAYOUT_INFLATER_SERVICE, SharedPreferences
+```java
+context.getSystemService(LAYOUT_INFLATER_SERVICE)
+getApplicationContext().getSharedPreferences(*name*, *mode*);
+```
+
+- 컴포넌트 접근 : Regarding content providers, broadcasts, intent
+```java
+getApplicationContext().getContentResolver().query(uri, ...);
+```
