@@ -24,3 +24,8 @@
 - Activity Life Cycle
 - AsyncTask 를 직접 구현한다면 ?
 - Context 란?
+
+### [Spark](https://github.com/babjo/tech-interview/blob/master/spark.md)
+- RDD 란?
+- 수행중 메모리가 부족하면 ?
+- Narrow transformation vs Wide transformation
