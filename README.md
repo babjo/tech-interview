@@ -4,12 +4,18 @@
 ### [Algorithm](https://github.com/babjo/tech-interview/blob/master/algorithm.md)
 
 ### [Data Structure](https://github.com/babjo/tech-interview/blob/master/data_structure.md)
- 
+- Singly Linked List
+
 ### [Design Pattern](https://github.com/babjo/tech-interview/blob/master/design_pattern.md)
 
 ### [Java](https://github.com/babjo/tech-interview/blob/master/java.md)
+- Java Collection Framework
+- 자바 기본형 정수와 Wrapper 클래스에 대한 차이는?
 - 자바쓰레드 `start()`는 두번 호출 될 수 있는가?
-
+- `static` 메소드를 오버라이드 할 수 있는가?
+- serialization 인터페이스에는 어떤 메소드가 있는가?
+- `super()`와 `this()`의 차이?
+- 메소드 overridden 방지법은 ?
 
 ### [Android](https://github.com/babjo/tech-interview/blob/master/android.md)
 - Activity Life Cycle
