@@ -2,6 +2,7 @@
 기술면접 준비용 :)
 
 ### [Algorithm](https://github.com/babjo/tech-interview/blob/master/algorithm.md)
+- Sorting 알고리즘
 
 ### [Data Structure](https://github.com/babjo/tech-interview/blob/master/data_structure.md)
 - Singly Linked List
@@ -24,6 +25,7 @@
 
 ### [System](https://github.com/babjo/tech-interview/blob/master/system.md)
 - Process 와 Thread 차이
+- Dead lock 설명 / 방지법
 
 ### [Android](https://github.com/babjo/tech-interview/blob/master/android.md)
 - Activity Life Cycle
