@@ -16,6 +16,11 @@
 - serialization 인터페이스에는 어떤 메소드가 있는가?
 - `super()`와 `this()`의 차이?
 - 메소드 overridden 방지법은 ?
+- 컴포짓 패턴?
+- 자바의 메모리 구조에 대해 설명
+- NIO 란?
+- DCL (Double-Checking Locking)
+- Java volatile
 
 ### [System](https://github.com/babjo/tech-interview/blob/master/system.md)
 - Process 와 Thread 차이

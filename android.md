@@ -101,8 +101,8 @@ BindService
 
 ## 암시적, 명시적 Intent 설명
 
-암시적 Intent : 호출 대상이 명확하지 않는 Intent
-명시적 Intent : 호출 대상이 명확한 Intent
+- 암시적 Intent : 호출 대상이 명확하지 않는 Intent
+- 명시적 Intent : 호출 대상이 명확한 Intent
 
 ## Service 와 Intent Service 차이
 Service
