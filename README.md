@@ -24,7 +24,21 @@
 - Activity Life Cycle
 - AsyncTask 를 직접 구현한다면 ?
 - Context 란?
-
+- Intent filter 란?
+- Fragment 란?
+- AIDL 란?
+- StartService, BindService ?
+- 쓰레드간 통신방법
+- Looper 란?
+- 암시적, 명시적 Intent 설명
+- Service 와 Intent Service 차이
+- Content Provider 와 Content Resolver 차이
+- ANR에 대해 설명
+- Doze 모드
+- Android MAT 설명
+- Percel 와 Serializable 비교
+- FLAG_ACTIVITY_CLEAR_TOP, FLAG_ACTIVITY_SINGLE_TOP 플래그 설명
+ 
 ### [Spark](https://github.com/babjo/tech-interview/blob/master/spark.md)
 - RDD 란?
 - 수행중 메모리가 부족하면 ?
